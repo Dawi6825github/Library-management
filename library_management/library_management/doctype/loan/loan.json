@@ -1,0 +1,29 @@
+
+{
+  "doctype": "DocType",
+  "name": "Loan",
+  "fields": [
+    {
+      "fieldname": "member",
+      "fieldtype": "Link",
+      "label": "Member",
+      "options": "Member"
+    },
+    {
+      "fieldname": "book",
+      "fieldtype": "Link",
+      "label": "Book",
+      "options": "Book"
+    },
+    {
+      "fieldname": "loan_date",
+      "fieldtype": "Date",
+      "label": "Loan Date"
+    },
+    {
+      "fieldname": "return_date",
+      "fieldtype": "Date",
+      "label": "Return Date"
+    }
+  ]
+}

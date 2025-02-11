@@ -1,0 +1,27 @@
+
+{
+  "doctype": "DocType",
+  "name": "Book",
+  "fields": [
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "label": "Title"
+    },
+    {
+      "fieldname": "author",
+      "fieldtype": "Data",
+      "label": "Author"
+    },
+    {
+      "fieldname": "publish_date",
+      "fieldtype": "Date",
+      "label": "Publish Date"
+    },
+    {
+      "fieldname": "isbn",
+      "fieldtype": "Data",
+      "label": "ISBN"
+    }
+  ]
+}
